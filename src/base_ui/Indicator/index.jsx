@@ -12,7 +12,7 @@ const Indicator = memo(({ children, current }) => {
         const scrollWidth = scrollRef.current.scrollWidth
         const totalWidth = scrollWidth - clientWidth
         // 计算每次移动距离
-let width = leftWidth + clientW / 2 - clientWidth / 2
+        let width = leftWidth + clientW / 2 - clientWidth / 2
        if (width < 0 ) width = 0
         if (width > totalWidth) width = totalWidth
         scrollRef.current.style.transform=`translateX(-${width}px)`
