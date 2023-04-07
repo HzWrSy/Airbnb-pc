@@ -38,7 +38,7 @@ const App = memo(() => {
                 </div>
            </div>
             <div className={'show-btn'} onClick={showPre}>显示照片</div>
-            {show && <PictureBrowser imgList={picture_urls} clickH={hidePre}/>}
+            {show && <PictureBrowser imgList={picture_urls} clickH={hidePre}/>}11
         </PicturesWrapper>
     )
 })
